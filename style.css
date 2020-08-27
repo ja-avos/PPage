@@ -52,8 +52,8 @@ footer {
 }
 
 .divi-text {
+  min-width: 200px;
   width: 50%;
-  font-size: 2vmin;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -167,6 +167,10 @@ footer {
   height: 200px;
   width: 200px;
   object-fit: scale-down;
+}
+
+#projects .title {
+  min-height: 200px;
 }
 
 .redes {
