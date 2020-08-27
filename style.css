@@ -169,7 +169,7 @@ footer {
 }
 
 .redes {
-  width: fit-content;
+  display: table;
 }
 
 .fa {
