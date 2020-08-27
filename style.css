@@ -133,7 +133,8 @@ footer {
 }
 
 .skils-table {
-  padding: 5rem;
+  width: 80%;
+  margin: 100px;
 }
 
 #professional {
