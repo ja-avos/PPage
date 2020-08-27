@@ -133,7 +133,39 @@ footer {
 }
 
 .skils-table {
+  padding: 5rem;
+}
 
+#professional {
+  background-color: darkgrey;
+  padding-bottom: 30px;
+}
+
+#professional img {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  height: 200px;
+  width: 200px;
+  object-fit: scale-down;
+}
+
+#academic {
+  padding-bottom: 30px;
+}
+
+#academic .card {
+  margin: auto;
+  max-width: 800px;
+}
+
+#academic img {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  height: 200px;
+  width: 200px;
+  object-fit: scale-down;
 }
 
 .redes {
