@@ -96,6 +96,8 @@ footer {
 
 .interest-div:hover .overlay {
   height: 100%;
+  margin-left: 20px; /* se agregaron margenes que coincidieran con los agregados a las imagenes  */
+  margin-right: 20px;
 }
 
 .interest-div .text {
@@ -111,10 +113,12 @@ footer {
 }
 
 .interest-div img {
-  display: block;
+ 
   object-fit: cover;
   object-position: 50% 50%;
   height: 400px;
+  margin-left: 20px; /* se agregaron margenes para que se diferencie el contenido del borde  */
+  margin-right: 20px;
 }
 
 .hobbie-div {
@@ -153,11 +157,13 @@ footer {
 
 #academic {
   padding-bottom: 30px;
+  text-align: center;
 }
 
 #academic .card {
   margin: auto;
   max-width: 800px;
+  margin-left:10px;
 }
 
 #academic img {
@@ -189,4 +195,17 @@ footer {
 
 .fa:hover {
   text-decoration: none;
+}
+
+#skills{/*separar la tabla para que no ocupe todo el ancho de la pagina  y el alto de la seccion*/ 
+  margin-left:20px;  
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+/*Cambiar color de la tabla ya que se pierde en el fondo*/
+table{
+  background-color: grey;
+
 }
