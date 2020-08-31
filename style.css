@@ -158,13 +158,18 @@ footer {
 
 #academic {
   padding-bottom: 30px;
+  margin: auto;
   text-align: center;
 }
 
-#academic .card {
+.academic-div {
   margin: auto;
+}
+
+#academic .card {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 800px;
-  margin-left:10px;
 }
 
 #academic img {
